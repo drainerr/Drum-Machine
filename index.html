@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Machine</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div id="drum-machine">
+        <div id="display">Drumpad</div>
+        <div id="keys">
+        <button class="drum-pad" id="Qid" data-key="81" onclick="play('Qa')">Q
+            <audio src="https://s3.amazonaws.com/freecodecamp/drums/Chord_1.mp3" class="clip"  id="Qa" instrument='Chord-1'></audio>
+        </button>
+        <button class="drum-pad" id="Wid" data-key="87" onclick="play('Wa')">W
+            <audio src="https://s3.amazonaws.com/freecodecamp/drums/Chord_2.mp3" class="clip" id="Wa" instrument='Chord-2'></audio>
+        </button>
+        <button class="drum-pad" id="Eid" data-key="81" onclick="play('Ea')">E
+            <audio src="https://s3.amazonaws.com/freecodecamp/drums/Chord_3.mp3" class="clip" id="Ea" instrument='Chord-3'></audio>
+        </button>
+        <button class="drum-pad" id="Aid" data-key="81" onclick="play('Aa')">A
+            <audio src="https://s3.amazonaws.com/freecodecamp/drums/Give_us_a_light.mp3" class="clip" id="Aa" instrument='Shaker'></audio>
+        </button>
+        <button class="drum-pad" id="Sid" data-key="81" onclick="play('Sa')">S
+            <audio src="https://s3.amazonaws.com/freecodecamp/drums/Dry_Ohh.mp3" class="clip" id="Sa" instrument='Open-HH'></audio>
+        </button>
+        <button class="drum-pad" id="Did" data-key="81" onclick="play('Da')">D
+            <audio src="https://s3.amazonaws.com/freecodecamp/drums/Bld_H1.mp3" class="clip" id="Da" instrument='Closed-HH'></audio>
+        </button>
+        <button class="drum-pad" id="Zid" data-key="81" onclick="play('Za')">Z
+            <audio src="https://s3.amazonaws.com/freecodecamp/drums/Kick_n_Hat.mp3" class="clip" id="Za" data-key="81" instrument='Kick-n'-Hat'></audio>
+        </button>
+        <button class="drum-pad" id="Xid" data-key="81" onclick="play('Xa')">X
+            <audio src="https://s3.amazonaws.com/freecodecamp/drums/RP4_KICK_1.mp3" class="clip" id="Xa" instrument='Kick'></audio>
+        </button>
+        <button class="drum-pad" id="Cid" data-key="81" onclick="play('Ca')">C
+            <audio src="https://s3.amazonaws.com/freecodecamp/drums/Brk_Snr.mp3" class="clip" id="Ca" instrument='Snare'></audio>
+        </button>      
+    </div>
+    </div>
+    <h2 style="color:white; margin-top:85vh; position:absolute; z-index: -1;"> By George KV</h2>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

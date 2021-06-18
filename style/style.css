@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap");
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #9a8bff;
+  opacity: 0.7;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  font-family: 'Monoton', cursive;
+}
+
+body #drum-machine {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  color: white;
+  background-color: rgba(125, 123, 238, 0.9);
+  border-radius: 20px;
+  -webkit-box-shadow: #9397ff 0px 0px 0px 3px, #c3f8c2 0px 0px 0px 6px, #ffd913 0px 0px 0px 9px, #fdae75 0px 0px 0px 12px, #fa9c9c 0px 0px 0px 15px;
+          box-shadow: #9397ff 0px 0px 0px 3px, #c3f8c2 0px 0px 0px 6px, #ffd913 0px 0px 0px 9px, #fdae75 0px 0px 0px 12px, #fa9c9c 0px 0px 0px 15px;
+}
+
+body #drum-machine #display {
+  text-align: center;
+  font-size: 1.5em;
+  padding: 15px 0;
+  min-height: 30px;
+}
+
+body #drum-machine #keys {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  padding: 30px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+body #drum-machine #keys .drum-pad {
+  margin: 0;
+  padding: 0;
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  border: none;
+  color: white;
+  background-color: #9684e6;
+  -webkit-box-shadow: 2px 2px 1px 1px #424141;
+          box-shadow: 2px 2px 1px 1px #424141;
+  font-family: 'Monoton', cursive;
+}
+
+body #drum-machine #keys .drum-pad:hover {
+  background-color: #7d5feb;
+  -webkit-box-shadow: 1px 1px 3px 1px #131212;
+          box-shadow: 1px 1px 3px 1px #131212;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: ease-out;
+  transition: ease-out;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+}
+
+body #drum-machine #keys .drum-pad:active {
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  background-color: palevioletred;
+}
+/*# sourceMappingURL=style.css.map */
