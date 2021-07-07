@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ultra&display=swap");
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -13,7 +13,8 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   height: 100%;
-  font-family: 'Monoton', cursive;
+  font-family: 'Ultra', serif;
+  text-shadow: black 1px 1px 1.5px;
 }
 
 body #drum-machine {
@@ -21,7 +22,7 @@ body #drum-machine {
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  color: white;
+  color: lavender;
   background-color: rgba(125, 123, 238, 0.9);
   border-radius: 20px;
   -webkit-box-shadow: #9397ff 0px 0px 0px 3px, #c3f8c2 0px 0px 0px 6px, #ffd913 0px 0px 0px 9px, #fdae75 0px 0px 0px 12px, #fa9c9c 0px 0px 0px 15px;
@@ -58,7 +59,9 @@ body #drum-machine #keys .drum-pad {
   background-color: #9684e6;
   -webkit-box-shadow: 2px 2px 1px 1px #424141;
           box-shadow: 2px 2px 1px 1px #424141;
-  font-family: 'Monoton', cursive;
+  font-family: 'Ultra', serif;
+  text-shadow: black 1px 1px;
+  color: lavender;
 }
 
 body #drum-machine #keys .drum-pad:hover {
@@ -71,6 +74,7 @@ body #drum-machine #keys .drum-pad:hover {
   transition: ease-out;
   -webkit-transition-duration: .3s;
           transition-duration: .3s;
+  text-shadow: #474646 2px 2px;
 }
 
 body #drum-machine #keys .drum-pad:active {
